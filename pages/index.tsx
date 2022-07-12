@@ -1,6 +1,6 @@
 import type { NextPage } from 'next'
 import Header from '../components/Header'
-// import Trending from '../components/trending'
+import Trending from '../components/Trending'
 // import SwapCryptoModal from '../components/swapCryptoModal'
 
 const Home: NextPage = () => {
@@ -9,7 +9,7 @@ const Home: NextPage = () => {
       <Header />
       {/* <SwapCryptoModal /> */}
       <div className='mt-10' />
-      {/* <Trending /> */}
+      <Trending />
       <div className='mt-20' />
       {/* <CMCtable /> */}
     </div>
